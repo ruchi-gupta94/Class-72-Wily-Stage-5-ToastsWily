@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TabNavigation",
-    "slug": "tab-navigation",
+    "name": "Database for Willy",
+    "slug": "databse-for-willy",
     "privacy": "public",
     "platforms": [
       "ios",
