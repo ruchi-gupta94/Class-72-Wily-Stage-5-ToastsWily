@@ -1,4 +1,4 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 require('@firebase/firestore');
 
 var firebaseConfig = {
@@ -11,7 +11,7 @@ var firebaseConfig = {
 };
   
 // Initialize Firebase
-if(!firebase.apps.len1){
+if(!firebase.apps.length){
   firebase.initializeApp(firebaseConfig);
 }
 
