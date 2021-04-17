@@ -22,6 +22,7 @@ const TabNavigator = createBottomTabNavigator({
   Search: {screen: SearchScreen},
 },
 {
+      
   defaultNavigationOptions: ({navigation})=>({
     tabBarIcon: ()=>{
       const routeName = navigation.state.routeName;
